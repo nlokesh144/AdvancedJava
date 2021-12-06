@@ -1,0 +1,35 @@
+public class Ticket {
+
+	public static void main(String[] args) {
+		System.out.println("main");
+		
+		Movie m1=new Movie();
+		Hall h=new Hall();
+		Seat s=new Seat();
+		Cost c=new Cost();
+	c=m1.tic(h, m1, s);
+	System.out.println(c.S); 
+
+	}
+
+}
+class Hall{}
+class Movie extends Hall{
+	Cost tic(Hall h,Movie m,Seat s)
+	{
+		System.out.println("main12345767689");
+		Cost c1=new Cost();
+	return c1;
+	}
+	
+}
+	
+
+class Seat{
+	
+}
+class Cost{int S=20;
+}
+
+
+
