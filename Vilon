@@ -1,0 +1,39 @@
+package interfaces;
+
+public class Ex {
+
+	public static void main(String[] args) {
+	
+Vilon v=new Vilon();
+v.play();
+v.play1();
+v.use();
+		
+			
+		}
+}
+
+interface ex1
+{
+	void use();
+}
+abstract class Ex2 implements ex1{
+	abstract void play();
+}
+abstract class Ex3 extends Ex2{
+	abstract void play1();
+}
+class Vilon extends Ex3{
+	public void use()
+	{
+		
+	}
+	void play()
+	{
+			
+	}
+	void play1()
+	{
+			
+	}
+}
